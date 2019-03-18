@@ -27,7 +27,7 @@ module.exports = {
     jest: true
   },
   parser: 'babel-eslint',
-  plugins: ['react', 'babel', 'react-hooks'],
+  plugins: ['react', 'babel', 'react-hooks', 'import'],
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   parserOptions: {
     ecmaFeatures: {
