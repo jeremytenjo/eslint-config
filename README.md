@@ -45,6 +45,13 @@ module.exports = {
     propWrapperFunctions: ['forbidExtraProps']
   },
   rules: {
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always'
+      }
+    ],
     'no-const-assign': 1,
     'no-this-before-super': 1,
     'no-undef': 2,
