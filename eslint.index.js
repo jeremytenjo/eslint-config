@@ -28,6 +28,8 @@ module.exports = {
     propWrapperFunctions: ['forbidExtraProps']
   },
   rules: {
+    'import/no-unresolved': 2,
+    'import/named': 2,
     'import/order': [
       'error',
       {
