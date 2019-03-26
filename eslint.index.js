@@ -37,6 +37,7 @@ module.exports = {
         'newlines-between': 'always'
       }
     ],
+    'no-unneeded-ternary': 2,
     'no-const-assign': 1,
     'no-this-before-super': 1,
     'no-undef': 2,
