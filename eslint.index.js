@@ -43,7 +43,7 @@ module.exports = {
     'no-undef': 2,
     'no-unreachable': 2,
     'no-unneeded-ternary': 2,
-    'no-unused-vars': 1,
+    'no-unused-vars': 2,
     'no-debugger': 1,
     'no-console': 0,
     'constructor-super': 1,
@@ -51,6 +51,7 @@ module.exports = {
     'react/display-name': 0,
     'react/jsx-uses-react': 1,
     'react/prop-types': 0,
+    'react/jsx-key': 2,
     'react/jsx-fragments': [0, 'syntax'],
     'react-hooks/rules-of-hooks': 2
   }
