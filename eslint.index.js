@@ -46,6 +46,7 @@ module.exports = {
     'no-unused-vars': 1,
     'no-debugger': 1,
     'no-console': 0,
+    'prefer-template': 2,
     'constructor-super': 1,
     'valid-typeof': 1,
     'react/display-name': 0,
