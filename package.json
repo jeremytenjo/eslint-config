@@ -1,9 +1,11 @@
 {
   "name": "@tenjo/eslint-config",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "Global Eslint config",
   "main": "eslint.index.js",
-  "files": ["eslint.index.js"],
+  "files": [
+    "eslint.index.js"
+  ],
   "scripts": {
     "deploy": "yarn publish --minor && gpush"
   },
