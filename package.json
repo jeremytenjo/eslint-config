@@ -1,11 +1,9 @@
 {
   "name": "@tenjojeremy/eslint-config",
-  "version": "0.21.0",
+  "version": "1.0.0",
   "description": "Global Eslint config",
   "main": "eslint.index.js",
-  "files": [
-    "eslint.index.js"
-  ],
+  "files": ["eslint.index.js"],
   "scripts": {
     "deploy": "yarn publish --minor && gpush"
   },
