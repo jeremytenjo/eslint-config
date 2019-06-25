@@ -1,14 +1,14 @@
 ## Installation
 
 ```sh
-yarn add @tenjo/eslint-config
+yarn add @tenjojeremy/eslint-config
 ```
 
 Add `eslintrc.js` to root with:
 
 ```js
 module.exports = {
-  extends: '@tenjo/eslint-config'
+  extends: '@tenjojeremy/eslint-config'
 }
 ```
 
