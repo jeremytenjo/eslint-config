@@ -9,7 +9,7 @@
   },
   "author": "Jeremy Tenjo <tenjojeremy@gmail.com>",
   "license": "MIT",
-  "dev-dependencies": {
+  "devDependencies": {
     "eslint": "^6.0.0",
     "eslint-config-react-app": "^4.0.1",
     "eslint-loader": "^2.1.2",
