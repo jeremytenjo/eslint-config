@@ -7,11 +7,16 @@ module.exports = {
     commonjs: true,
     node: true,
     es6: true,
-    jest: true
+    jest: true,
+    'cypress/globals': true
   },
   parser: 'babel-eslint',
-  plugins: ['react', 'babel', 'react-hooks', 'import'],
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  plugins: ['react', 'babel', 'react-hooks', 'import', 'cypress'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:cypress/recommended'
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
