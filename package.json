@@ -3,15 +3,13 @@
   "version": "1.2.0",
   "description": "Global Eslint config",
   "main": "eslint.index.js",
-  "files": [
-    "eslint.index.js"
-  ],
+  "files": ["eslint.index.js"],
   "scripts": {
     "deploy": "yarn publish --minor && gpush"
   },
   "author": "Jeremy Tenjo <tenjojeremy@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^6.0.0",
     "eslint-config-react-app": "^4.0.1",
     "eslint-loader": "^2.1.2",
