@@ -12,6 +12,13 @@ module.exports = {
 }
 ```
 
+Add `package.json` to scripts:
+
+```json
+  "lint:fix": "eslint ./src --fix",
+  "lint:check": "eslint ./src",
+```
+
 ## Rules
 
 ```js
