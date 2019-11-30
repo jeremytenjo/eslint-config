@@ -1,6 +1,6 @@
 {
-  "name": "@tenjo/eslint-config",
-  "version": "2.3.0",
+  "name": "@tenjojeremy/eslint-config",
+  "version": "2.4.0",
   "description": "Global Eslint config",
   "main": "eslint.index.js",
   "files": [
