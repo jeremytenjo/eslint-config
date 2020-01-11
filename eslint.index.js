@@ -59,6 +59,7 @@ module.exports = {
     'react/prop-types': 0,
     'react/jsx-key': 2,
     'react/jsx-fragments': [0, 'syntax'],
-    'react-hooks/rules-of-hooks': 2
+    'react-hooks/rules-of-hooks': 2,
+    'no-async-promise-executor': 0
   }
 }
