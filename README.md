@@ -4,7 +4,7 @@
 yarn add @tenjojeremy/eslint-config
 ```
 
-Add `package.json` to scripts:
+Add `package.json`:
 
 ```json
   "scripts": {
