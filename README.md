@@ -4,19 +4,25 @@
 yarn add @tenjojeremy/eslint-config
 ```
 
-Add `eslintrc.js` to root with:
-
-```js
-module.exports = {
-  extends: '@tenjojeremy/eslint-config'
-}
-```
-
 Add `package.json` to scripts:
 
 ```json
-  "lint:fix": "eslint ./src --fix",
-  "lint:check": "eslint ./src",
+  "scripts": {
+    "lint:fix": "eslint ./src --fix",
+    "lint:check": "eslint ./src"
+  }
+```
+
+```js
+ "eslintConfig": {
+    "extends": "@tenjojeremy/eslint-config"
+  },
+  "eslintIgnore": [
+    "/build/*",
+    "/src/serviceWorker/sw.js",
+    "/node_modules",
+    "/api/node_modules"
+  ]
 ```
 
 ## Rules
