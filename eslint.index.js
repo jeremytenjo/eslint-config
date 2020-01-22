@@ -62,6 +62,7 @@ module.exports = {
     'react/default-props-match-prop-types': 2,
     'react/jsx-key': 2,
     'react/jsx-fragments': [0, 'syntax'],
+    'react/no-unused-prop-types': 2,
     'react-hooks/rules-of-hooks': 2,
     'no-async-promise-executor': 0
   }
