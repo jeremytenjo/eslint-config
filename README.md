@@ -1,7 +1,7 @@
 #### Installation
 
 ```sh
-yarn add @tenjojeremy/eslint-config
+npm i @tenjojeremy/eslint-config
 ```
 
 Add `package.json`:
