@@ -1,4 +1,4 @@
-## Installation
+#### Installation
 
 ```sh
 yarn add @tenjojeremy/eslint-config
@@ -25,7 +25,7 @@ Add `package.json`:
   ]
 ```
 
-## Rules
+#### Rules
 
 ```js
 module.exports = {
