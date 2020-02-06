@@ -2,9 +2,9 @@
   "name": "@tenjojeremy/eslint-config",
   "version": "2.8.0",
   "description": "Global Eslint config",
-  "main": "eslint.index.js",
+  "main": "index.js",
   "files": [
-    "eslint.index.js"
+    "index.js"
   ],
   "scripts": {
     "deploy": "yarn publish --minor && gpush"
