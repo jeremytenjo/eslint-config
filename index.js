@@ -47,7 +47,6 @@ module.exports = {
     'no-this-before-super': 1,
     'no-undef': 2,
     'no-unreachable': 2,
-    'no-unneeded-ternary': 2,
     'no-unused-vars': 1,
     'no-debugger': 1,
     'no-console': 0,
