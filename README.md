@@ -83,3 +83,7 @@ module.exports = {
   }
 }
 ```
+
+#### Issues
+
+If eslint import order not working check that verion is not [2.20.1](https://github.com/benmosher/eslint-plugin-import/issues/1643)
