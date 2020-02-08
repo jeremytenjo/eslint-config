@@ -1,8 +1,11 @@
 {
   "name": "@tenjojeremy/eslint-config",
-  "version": "2.14.0",
+  "version": "2.15.0",
   "description": "Global Eslint config",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "deploy": "npm publish --minor && gpush"
   },
